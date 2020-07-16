@@ -61,7 +61,7 @@ body.is-preload #header:after {
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
 		background-image: url("images/portrait.png");
-		background-position: left -100%;
+		background-position: 0 30%;
 		background-size: 30em;
 		background-repeat: no-repeat;
 		overflow: hidden;
@@ -2923,7 +2923,7 @@ li img{
 			#header {
 				padding: 5em 0 5em 0 ;
 				background-attachment: fixed;
-				background-position: top left;
+				background-position:  0% 20%;
 				
 			}
 
@@ -2969,7 +2969,7 @@ li img{
 			#header {
 				padding: 8em 0 0 0;
 				background-attachment: fixed;
-				background-position: 0 40%;
+				background-position: 0 36%;
 				background-size:  20em;
 			}
 		
