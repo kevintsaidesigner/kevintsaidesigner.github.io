@@ -30,7 +30,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 */
-
+#header {
+	    padding: 9em 0 9em 0 ;
+		background-color: #0f4c81;
+		color: rgba(255, 255, 255, 0.75);
+		background-attachment: fixed;
+		background-image: url("images/portrait.png");
+		background-position: left -100%;
+		background-size: 30em;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+	}
 
 body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
@@ -2894,19 +2906,6 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-	    padding: 9em 0 9em 0 ;
-		background-color: #0f4c81;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed;
-		background-image: url("images/portrait.png");
-		background-position: left -100%;
-		background-size: 30em;
-		background-repeat: no-repeat;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-	}
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
