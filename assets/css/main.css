@@ -34,6 +34,10 @@ body {
 	background: #fff;
 }
 
+.hand img{
+	height:28em;
+}
+
 body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
 		-webkit-transform: scale(1.05);
@@ -2885,7 +2889,9 @@ li img{
 
 			body, input, select, textarea {
 				font-size: 13pt;
+				text-align: center;
 			}
+		p{text-align: left;}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
@@ -2977,7 +2983,7 @@ li img{
 		
 		.hamburger .nav{
 		display: flex;
-			justify-content: center;
+		justify-content: center;
 		}
 		nav{display: none;}
 
