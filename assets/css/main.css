@@ -1947,7 +1947,7 @@ input, select, textarea {
 
 			.bird.fit {
 				width: 10vw;
-				animation: fly 15s ease-in-out infinite;
+				animation: fly 20s ease-in-out infinite;
 			    animation-fill-mode: forwards;
 				padding-top: 1.5em; 
 			}
