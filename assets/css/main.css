@@ -1946,15 +1946,15 @@ input, select, textarea {
 			}
 
 			.bird.fit {
-				width: 10%;
+				width: 10vw;
 				animation: fly 15s ease-in-out infinite;
 			    animation-fill-mode: forwards;
 				padding-top: 1.5em; 
 			}
 
 @keyframes fly {
-	from{transform:translate(-20em);}
-	to{transform: translate(80em);}
+	from{transform:translate(-100vw);}
+	to{transform: translate(100vw);}
 	
 }
 
@@ -2982,6 +2982,7 @@ li img{
 		.hamburger{opacity: 1;}
 		
 		.hamburger .nav{
+		text-align: left;
 		display: flex;
 		justify-content: center;
 		}
