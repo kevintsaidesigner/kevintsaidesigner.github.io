@@ -35,7 +35,7 @@ body {
 }
 
 .hand img{
-	height:28em;
+	width:30vw;
 }
 
 body.is-preload #header .inner {
@@ -1947,13 +1947,13 @@ input, select, textarea {
 
 			.bird.fit {
 				width: 10vw;
-				animation: fly 20s ease-in-out infinite;
+				animation: fly 14s ease-in-out infinite;
 			    animation-fill-mode: forwards;
 				padding-top: 1.5em; 
 			}
 
 @keyframes fly {
-	from{transform:translate(-100vw);}
+	from{transform:translate(-60vw);}
 	to{transform: translate(100vw);}
 	
 }
@@ -2604,8 +2604,8 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-image: url("images/IMG_6994.jpg"), url("../../images/header.jpg");
+			background-size: auto cover;
 		}
 
 			.main.style2 a {
